@@ -62,8 +62,8 @@ class Agendamento : AppCompatActivity() {
 
         binding.btFinalizar.setOnClickListener {
             val barbeiro1 = binding.barbeiro1
-            val barbeiro2 = binding.barbeiro3
-            val barbeiro3 = binding.barbeiro2
+            val barbeiro2 = binding.barbeiro2
+            val barbeiro3 = binding.barbeiro3        
 
             when {
                 hora.isEmpty() -> {
